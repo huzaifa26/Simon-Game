@@ -89,3 +89,38 @@ body {
   background-color: #011f3f;
   border: 4px solid #fef2bf;
 }
+
+
+@media screen and (min-width: 580px) {
+  .btn {
+    height: 270px;
+    width: 270px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  #level-title{
+    font-size: 2.5rem;
+  }
+
+  #start-game{
+    height: 400px;
+    width: 700px;
+  }
+
+    #start-game h1{
+      font-size: 32px !important;
+    }
+
+    #start-game button {
+      font-family: "Press Start 2P", cursive;
+      font-size: 28px;
+      font-weight: bolder;
+      margin: 5%;
+      width: 220px;
+      height: 80px;
+      border-radius: 20%;
+      border: 4px solid black;
+      cursor: pointer;
+    }
+}
