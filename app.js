@@ -15,6 +15,13 @@ $("#ok").click(function () {
   $("#start-game").hide();
 });
 
+$("#level-title").click(function(){
+  if (started === false) {
+    started = true;
+    nextSequence();
+  }
+});
+
 function nextSequence() {
   userClickedPattern = [];
   var randomNumber = Math.floor(Math.random() * 4);
